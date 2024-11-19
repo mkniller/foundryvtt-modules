@@ -1,0 +1,33 @@
+{
+    "coc7": {
+        "system": "c0c7",
+        "topology": "standard",
+        "quantity": "quantity",
+        "sources": {
+            "Flashlight": {
+                "name": "Flashlight",
+                "type": "item",
+                "consumable": false,
+                "states": 2,
+                "light": [
+                    {
+                        "bright": 10,
+                        "dim": 30,
+                        "color": "#ffe53d",
+                        "alpha": 0.15,
+                        "saturation": 0.2,
+                        "contrast": 0.2,
+                        "shadows": 0.2,
+                        "angle": 90,
+                        "animation": {
+                            "type": "none",
+                            "speed": 1,
+                            "intensity": 7,
+                            "reverse": false
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
