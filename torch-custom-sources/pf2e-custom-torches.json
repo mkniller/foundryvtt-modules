@@ -1,0 +1,33 @@
+{
+    "pf2e": {
+        "system": "pf2e",
+        "topology": "standard",
+        "quantity": "quantity",
+        "sources": {
+            "Everlight Crystal": {
+                "name": "Everlight Crystal",
+                "type": "equipment",
+                "consumable": false,
+                "states": 2,
+                "light": [
+                    {
+                        "bright": 10,
+                        "dim": 30,
+                        "color": "#ffe53d",
+                        "alpha": 0.15,
+                        "saturation": 0.2,
+                        "contrast": 0.2,
+                        "shadows": 0.2,
+                        "angle": 360,
+                        "animation": {
+                            "type": "torch",
+                            "speed": 1,
+                            "intensity": 7,
+                            "reverse": false
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
